@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/IKnowThisFace.dir/src/main.cpp.o -o IKnowThisFace   -L/home/yasin/Desktop/mm/lib  -L/usr/local/opencv/4.1/lib  -Wl,-rpath,/home/yasin/Desktop/mm/lib:/usr/local/opencv/4.1/lib -lFaceDetector -lboost_system -lboost_filesystem -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_imgcodecs -lopencv_features2d -lopencv_video -lopencv_videoio 

@@ -1,0 +1,3 @@
+/home/yasin/Projects/Oyuncak/IKnowThisFace/build/CMakeFiles/rebuild_cache.dir
+/home/yasin/Projects/Oyuncak/IKnowThisFace/build/CMakeFiles/edit_cache.dir
+/home/yasin/Projects/Oyuncak/IKnowThisFace/build/CMakeFiles/IKnowThisFace.dir

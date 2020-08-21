@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="IKnowThisFace"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yasin/Projects/Oyuncak/IKnowThisFace/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yasin/Projects/Oyuncak/IKnowThisFace/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yasin/Projects/Oyuncak/IKnowThisFace/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IKnowThisFace">
+				<Option output="/home/yasin/Projects/Oyuncak/IKnowThisFace/build/IKnowThisFace" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yasin/Projects/Oyuncak/IKnowThisFace/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yasin/Projects/Oyuncak/IKnowThisFace/build"/>
+					<Add directory="/home/yasin/Projects/Oyuncak/IKnowThisFace"/>
+					<Add directory="/home/yasin/Projects/Oyuncak/IKnowThisFace/include"/>
+					<Add directory="/home/yasin/Projects/Oyuncak/IKnowThisFace/utilities"/>
+					<Add directory="/usr/local/opencv/4.1/include/opencv4"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/caffe/Release/include"/>
+					<Add directory="/home/yasin/Desktop/mm/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 IKnowThisFace"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IKnowThisFace/fast">
+				<Option output="/home/yasin/Projects/Oyuncak/IKnowThisFace/build/IKnowThisFace" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yasin/Projects/Oyuncak/IKnowThisFace/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yasin/Projects/Oyuncak/IKnowThisFace/build"/>
+					<Add directory="/home/yasin/Projects/Oyuncak/IKnowThisFace"/>
+					<Add directory="/home/yasin/Projects/Oyuncak/IKnowThisFace/include"/>
+					<Add directory="/home/yasin/Projects/Oyuncak/IKnowThisFace/utilities"/>
+					<Add directory="/usr/local/opencv/4.1/include/opencv4"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/caffe/Release/include"/>
+					<Add directory="/home/yasin/Desktop/mm/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 IKnowThisFace/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yasin/Projects/Oyuncak/IKnowThisFace/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yasin/Projects/Oyuncak/IKnowThisFace/src/main.cpp">
+			<Option target="IKnowThisFace"/>
+		</Unit>
+		<Unit filename="/home/yasin/Projects/Oyuncak/IKnowThisFace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
